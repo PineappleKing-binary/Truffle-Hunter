@@ -1,5 +1,5 @@
-require ("Lua/Engine/Core/vars.lua") -- i fixed up the bad stop syntax
+require ("Lua/Engine/Core/truffvar.lua") --and also renamed and reserved vars.lua for only truffles to avoid fatal naming collision.
 truffle = truffle + 1
 
 print("trufflegained")
-return
+return --i fixed the stop syntax
